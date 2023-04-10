@@ -1,4 +1,5 @@
 /*
+!!!!!!!!!!!!!AULA 1!!!!!!!!!!!!!
 EXERCÍCIO 1
 console.log("O vinicius eh muito faixa branca");
 
@@ -67,4 +68,21 @@ console.log(potencia(5));
 }
 
 console.log(potencia(6));
+
+
+!!!!!!!!!!!!!AULA 2!!!!!!!!!!!!!
+EXERCÍCIO 1: Faça um formulário que receba informações do usuário na página web
 */
+
+const enviar = document.querySelector("#enter");
+
+enviar.addEventListener('click', function(form){
+
+    form.preventDefault();
+
+    const txnome = document.querySelector("#txnome");
+    const nome = txnome.value;
+
+    console.log(`Nome: ${nome}`);
+
+});
