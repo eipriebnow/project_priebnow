@@ -133,8 +133,8 @@ function mostrar (nome, dtNascimento){
 };
 
 mostrar.call(pessoa);
-*/
 
+EXERCICIO SEI LÁ QUE NUMERO
 const carro = {
     marca: "Ford",
     cor: "preto",
@@ -152,3 +152,5 @@ function mostrar(marca, cor, placa, velocidade_atual,marcha_atual, freio_de_mao_
 };
 
 mostrar.call(carro);
+*/
+
