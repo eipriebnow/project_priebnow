@@ -1,0 +1,42 @@
+/*
+EXERCICIO 1
+const pessoa = {
+    nome: 'Rafaella',
+    lastName: 'Priebnow',
+    
+    mostrarDados(){
+        console.log(`Olá ${this.nome} ${this.lastName}, seja bem-vinda!`);
+    }
+}
+pessoa.mostrarDados();
+
+EXERCICIO 2
+const pessoa = (nome, sobrenome) => {
+    this.nome = nome;
+    this.sobrenome = sobrenome;
+
+    console.log(`Olá ${this.nome} ${this.sobrenome} , seja bem-vinda!`);
+}
+pessoa('Rafaella', 'Priebnow');
+
+EXERCICIO 3
+function descobreIdade(nameUser, mesNascimento, anoNascimento) {
+
+    const dataAtual = new Date();
+    const anoAtual = dataAtual.getFullYear ();
+    const mesAtual = dataAtual.getMonth();
+
+    let idade = anoAtual - anoNascimento;
+        if (mesAtual <mesNascimento) {
+
+        }
+
+    return `Olá ${nameUser}, sua idade é ${idade} anos.`;
+}
+
+console.log(descobreIdade("Rafaella", 10, 2002));
+
+EXERCICIO 4
+
+*/
+
