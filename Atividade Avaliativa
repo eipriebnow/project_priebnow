@@ -38,5 +38,36 @@ console.log(descobreIdade("Rafaella", 10, 2002));
 
 EXERCICIO 4
 
+const cliente = {
+        cpf: 12345678999,
+        nome: "Vinicius",
+        telefone: 123456789,
+        email: "viniciiusteste@gmail.com",
+        dataNascimento: "01/06/2000",
+        clienteDesde: "12/10/2010",
+    
+    
+
+    }
+    const funcionario = {
+        cpf: 123456789929,
+        nome: "Rafa",
+        telefone: "1234536789",
+        email: "rafateste@gmail.com",
+        dataNascimento: "01/10/2000",
+        registro: "1234242424",
+        carteira_trabalho:"123123123" ,
+        pis: "1231312",
+    
+    
+    mostrarDados(){
+
+        console.log(`Dados:\n ${this.cpf}\n ${this.nome}\n ${this.telefone}\n ${this.email}\n ${this.dataNascimento}\n ${this.registro}\n ${this.carteira_trabalho}\n ${this.pis}\n`);
+        }
+    }
+    
+    funcionario.mostrarDados();
+    funcionario.mostrarDados.call(cliente);
+
 */
 
